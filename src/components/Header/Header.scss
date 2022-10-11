@@ -1,0 +1,26 @@
+.Header-container {
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--bg-color);
+  height: 100vh;
+  .inner-img-container {
+    width: 30%;
+    img {
+      width: 100%;
+      box-shadow: 3rem 2rem 20px var(--bg-primary);
+      border: 2px solid #fff668 ;
+    }
+  }
+  .inner-text-container {
+    width: 50%;
+    h1 {
+      font-size: 8rem;
+      font-family: Courier;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+  }
+}
